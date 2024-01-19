@@ -18,8 +18,8 @@ class StringBuilder {
     }
 
     padBoth(str) {
-        this.padEnd(str);
         this.padStart(str);
+        this.padEnd(str);
     }
 }
 
